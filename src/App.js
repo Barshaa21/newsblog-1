@@ -16,7 +16,7 @@ export default class App extends Component {
   render() {
     return (
       <div style={{color:'black',backgroundImage:"url(/background.png)"}}>
-        <Router>
+        <Router basename='/newsblog-1'>
           <Navbar />
           {/* <Daily/> */}
           <Routes>
